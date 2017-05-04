@@ -15,15 +15,8 @@
 \RequirePackage[onehalfspacing]{setspace}
 \RequirePackage[osf]{mathpazo}
 \RequirePackage{eulervm}
-\RequirePackage[explicit]{titlesec}
 
 % Define Structures
-
-
-%\newcounter{subproblem}[problem]
-
-% headings customizations
-%\titleclass{problem}{straight}
 \newcounter{problem}
 \setcounter{problem}{1}
 \newcommand{\problem}{\par\vskip\baselineskip\noindent\textbf{Problem \theproblem.}\enskip\stepcounter{problem}}
